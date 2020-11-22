@@ -92,55 +92,95 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Casher_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Casher_Form.Designer.cs">
-      <DependentUpon>Casher_Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Clock.cs">
+    <Compile Include="Classes\Query.cs" />
+    <Compile Include="Classes\Clock.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="StatiStics_Form.cs">
+    <Compile Include="Classes\DBS.cs" />
+    <Compile Include="Classes\Login.cs" />
+    <Compile Include="Classes\Function.cs" />
+    <Compile Include="Forms\Statistics_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>StatiStics_Form.cs</DependentUpon>
+    <Compile Include="Forms\Statistics_Form.Designer.cs">
+      <DependentUpon>Statistics_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Kind_Create_From.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Function.cs" />
-    <Compile Include="IDcreate_Form.cs">
+    <Compile Include="Forms\Kind_Create_From.Designer.cs">
+      <DependentUpon>Kind_Create_From.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Login_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IDcreate_Form.Designer.cs">
-      <DependentUpon>IDcreate_Form.cs</DependentUpon>
+    <Compile Include="Forms\Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="login_Form.cs">
+    <Compile Include="Forms\ID_Create_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="login_Form.Designer.cs">
-      <DependentUpon>login_Form.cs</DependentUpon>
+    <Compile Include="Forms\ID_Create_Form.Designer.cs">
+      <DependentUpon>ID_Create_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuList.cs" />
-    <Compile Include="Menucreate_Form.cs">
+    <Compile Include="Forms\Main_Form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menucreate_Form.Designer.cs">
-      <DependentUpon>Menucreate_Form.cs</DependentUpon>
+    <Compile Include="Forms\Main_Form.Designer.cs">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Menu_Create_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Menu_Create_Form.Designer.cs">
+      <DependentUpon>Menu_Create_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Log_Table_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Log_Table_Form.Designer.cs">
+      <DependentUpon>Log_Table_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Casher_Form.resx">
-      <DependentUpon>Casher_Form.cs</DependentUpon>
+    <Compile Include="Forms\Test_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Test_Form.Designer.cs">
+      <DependentUpon>Test_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Receipt_Setting_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Receipt_Setting_Form.Designer.cs">
+      <DependentUpon>Receipt_Setting_Form.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\ID_Create_Form.resx">
+      <DependentUpon>ID_Create_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IDcreate_Form.resx">
-      <DependentUpon>IDcreate_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Kind_Create_From.resx">
+      <DependentUpon>Kind_Create_From.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="login_Form.resx">
-      <DependentUpon>login_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menucreate_Form.resx">
-      <DependentUpon>Menucreate_Form.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Main_Form.resx">
+      <DependentUpon>Main_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Receipt_Setting_Form.resx">
+      <DependentUpon>Receipt_Setting_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Statistics_Form.resx">
+      <DependentUpon>Statistics_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Test_Form.resx">
+      <DependentUpon>Test_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Menu_Create_Form.resx">
+      <DependentUpon>Menu_Create_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Log_Table_Form.resx">
+      <DependentUpon>Log_Table_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -151,9 +191,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="StatiStics_Form.resx">
-      <DependentUpon>StatiStics_Form.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -1,9 +1,7 @@
 C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.csprojAssemblyReference.cache
-C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.IDcreate_Form.resources
 C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Properties.Resources.resources
 C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.csproj.GenerateResource.cache
 C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.csproj.CoreCompileInputs.cache
-C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Login_Form.resources
 C:\Users\gj344\source\repos\Coffee\bin\Debug\Coffee.exe.config
 C:\Users\gj344\source\repos\Coffee\bin\Debug\Coffee.exe
 C:\Users\gj344\source\repos\Coffee\bin\Debug\Coffee.pdb
@@ -34,6 +32,12 @@ C:\Users\gj344\source\repos\Coffee\bin\Debug\System.Memory.xml
 C:\Users\gj344\source\repos\Coffee\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\gj344\source\repos\Coffee\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.csproj.CopyComplete
-C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Casher_Form.resources
-C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Menucreate_Form.resources
-C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.StatiStics_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Test_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.ID_Create_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Login_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Main_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Kind_Create_From.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Menu_Create_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Statistics_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Log_Table_Form.resources
+C:\Users\gj344\source\repos\Coffee\obj\Debug\Coffee.Receipt_Setting_Form.resources

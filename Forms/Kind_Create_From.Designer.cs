@@ -1,6 +1,6 @@
 ﻿namespace Coffee
 {
-    partial class StatiStics_Form
+    partial class Kind_Create_From
     {
         /// <summary>
         /// Required designer variable.
@@ -28,48 +28,47 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBoxStatus = new System.Windows.Forms.ComboBox();
-            this.listView = new System.Windows.Forms.ListView();
+            this.textBox_Name = new System.Windows.Forms.TextBox();
+            this.button_Update = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // comboBoxStatus
+            // textBox_Name
             // 
-            this.comboBoxStatus.FormattingEnabled = true;
-            this.comboBoxStatus.Location = new System.Drawing.Point(525, 28);
-            this.comboBoxStatus.Name = "comboBoxStatus";
-            this.comboBoxStatus.Size = new System.Drawing.Size(244, 23);
-            this.comboBoxStatus.TabIndex = 0;
-            this.comboBoxStatus.SelectedIndexChanged += new System.EventHandler(this.comboBoxStatus_SelectedIndexChanged);
+            this.textBox_Name.Location = new System.Drawing.Point(29, 44);
+            this.textBox_Name.Name = "textBox_Name";
+            this.textBox_Name.Size = new System.Drawing.Size(168, 25);
+            this.textBox_Name.TabIndex = 0;
             // 
-            // listView
+            // button_Update
             // 
-            this.listView.HideSelection = false;
-            this.listView.Location = new System.Drawing.Point(24, 82);
-            this.listView.Name = "listView";
-            this.listView.Size = new System.Drawing.Size(745, 346);
-            this.listView.TabIndex = 1;
-            this.listView.UseCompatibleStateImageBehavior = false;
+            this.button_Update.Location = new System.Drawing.Point(254, 32);
+            this.button_Update.Name = "button_Update";
+            this.button_Update.Size = new System.Drawing.Size(75, 23);
+            this.button_Update.TabIndex = 1;
+            this.button_Update.Text = "추가";
+            this.button_Update.UseVisualStyleBackColor = true;
+            this.button_Update.Click += new System.EventHandler(this.button_Update_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(34, 28);
+            this.label1.Location = new System.Drawing.Point(93, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 15);
+            this.label1.Size = new System.Drawing.Size(42, 15);
             this.label1.TabIndex = 2;
-            this.label1.Text = "StatiStics:";
+            this.label1.Text = "name";
             // 
-            // StatiStics_Form
+            // Kind_Create_From
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(370, 90);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.listView);
-            this.Controls.Add(this.comboBoxStatus);
-            this.Name = "StatiStics_Form";
-            this.Text = "statistics";
+            this.Controls.Add(this.button_Update);
+            this.Controls.Add(this.textBox_Name);
+            this.Name = "Kind_Create_From";
+            this.Text = "종류설정";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -77,8 +76,8 @@
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBoxStatus;
-        private System.Windows.Forms.ListView listView;
+        private System.Windows.Forms.TextBox textBox_Name;
+        private System.Windows.Forms.Button button_Update;
         private System.Windows.Forms.Label label1;
     }
 }
